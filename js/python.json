@@ -1,0 +1,173 @@
+rawJSON = {
+	"config": {
+		"id": "python3-201711",
+		"email": "yolux.wang@beseye.com",
+		"fb": "",
+		"desc": "Basic Python programming syntax practice",
+		"title": "Python for fun",
+		"group": ["all"]
+	},
+	"items": [{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "有一個字典 a = {'a': 1, 'b': 'Taipei'} ， <br>我要如何取得 'Taipei' 這個數值？",
+			"ans": ["a['b']", "1"]
+		},
+		{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "x = [100, 50, 'Python', ['Count', 99]] ， <br>我要如何取得 99 這個數值？(嘗試用一行程式碼表示)",
+			"ans": ["x[3][1]"]
+		},
+		{
+			"validEngine": 1,
+			"group": "1",
+			"desc": "x = [100, 50, 'Python'] ， <br> 如何將 x 變成 [101, 50, 'Python']",
+			"ans": ["x[0]=101", "x[0]=x[0]+1"]
+		},
+		{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "x = [100, 50, 'Python'] ， 如何取得子串列 [50, 'Python'] ",
+			"ans": ["x[1:3]"]
+		},
+		{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "x = [100, 50, 'Python'] ， 如何取得子串列 [100, 50] ",
+			"ans": ["x[0:2]"]
+		},
+		{
+			"validEngine": 1,
+			"group": "1",
+			"desc": "x = [0] <br> y = [1,2,3] <br> 如何將 x 變成 [0,1,2,3] (嘗試用一行程式碼表示)",
+			"ans": ["x.extend(y)"]
+		},
+		{
+			"validEngine": 1,
+			"group": "1",
+			"desc": "x = [0] <br> y = [1,2,3] <br> 如何將 x 變成 [0, [1,2,3]] (嘗試用一行程式碼表示)",
+			"ans": ["x.append(y)"]
+		},
+		{
+			"validEngine": 1,
+			"group": "1",
+			"desc": "x = [0] <br> y = [1,2,3] <br> x.append(y) <br> 請問 x 有幾個元素 ",
+			"ans": ["2"]
+		},
+		{
+			"validEngine": 1,
+			"group": "1",
+			"desc": "x = [0] <br> y = [1,2,3] <br> x.extend(y) <br> 請問 x 有幾個元素 ",
+			"ans": ["4"]
+		},
+		{
+			"validEngine": 1,
+			"group": "1",
+			"desc": "a = [0, 100] <br> b = ['Python', 'is good'] <br> c = a + b <br> 請問 b[-1] 的數值",
+			"ans": ["good"]
+		},
+		{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "a = [0, 100] <br> b = ['Python', 'is good'] <br> c = a + b <br> 請問 a[-1] 的數值",
+			"ans": ["100"]
+		},
+		{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "a = [0, 100] <br> b = ['Python', 'is good'] <br> c = a + b <br> 請問 c[-2] 的數值",
+			"ans": ["Python"]
+		},
+		{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "a = [0, 100] <br> b = ['Python', 'is good'] <br> c = b + a <br> 請問 c[-2] 的數值",
+			"ans": ["0"]
+		},
+		{
+			"validEngine": 1,
+			"group": "1",
+			"desc": "x = ['Python', 'good'] <br> 如何讓 x 變成 ['Python', 'is', 'good'] (嘗試用一行程式碼表示)",
+			"ans": ["x.insert(1,'is')", "x.insert(-1,'is')"]
+		},
+		{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "x = [1,2,3] <br> 如何讓 x 變成 [2,3]",
+			"ans": ["del x[0]", "x.remove(1)"]
+		},
+		{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "x = [1,2,3,1,2] <br> 如何讓 x 變成 [1,2,3,1]",
+			"ans": ["del x[-1]"]
+		},
+		{
+			"validEngine": 1,
+			"group": "1",
+			"desc": "x = [1,2,3,1,2] <br> 如何讓 x 變成 []",
+			"ans": ["x.clear()", "x=[]"]
+		},
+		{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "",
+			"ans": [""]
+		},
+		{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "",
+			"ans": [""]
+		},
+		{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "",
+			"ans": [""]
+		},
+		{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "",
+			"ans": [""]
+		},
+		{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "",
+			"ans": [""]
+		},
+		{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "",
+			"ans": [""]
+		},
+		{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "",
+			"ans": [""]
+		},
+		{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "",
+			"ans": [""]
+		},
+		{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "",
+			"ans": [""]
+		},
+		{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "",
+			"ans": [""]
+		}
+	]
+}
