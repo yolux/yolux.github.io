@@ -109,6 +109,132 @@ rawJSON = {
 			"desc": "x = [1,2,3,1,2] <br> 如何讓 x 變成 []",
 			"ans": ["x.clear()", "x=[]"]
 		},
+		{
+			"validEngine": 1,
+			"group": "1",
+			"desc": "x = [3, 2, 1, 8, 9, 0] <br> 如何讓 x 變成 [0, 1, 2, 3, 8, 9]",
+			"ans": ["x.sort()"]
+		},
+		{
+			"validEngine": 1,
+			"group": "1",
+			"desc": "x = [3, 2, 1, 8, 9, 0] <br> 如何讓 x 變成 [9, 8, 3, 2, 1, 0]",
+			"ans": ["x.sort(reverse=True)"]
+		},
+		{
+			"validEngine": 1,
+			"group": "1",
+			"desc": "x = [1,4,0,1] <br> 想取得排序後的結果 又不讓的 x 內容變動的 method 是？ ",
+			"ans": ["sorted", "sorted()", "sorted(x)"]
+		},
+		{
+			"validEngine": 1,
+			"group": "1",
+			"desc": "x = [1,0,0,0,1,0,1,1,0,1,0,1,1,1] <br> 計算 1 出現幾次",
+			"ans": ["x.count(1)"]
+		},
+		{
+			"validEngine": 1,
+			"group": "1",
+			"desc": "x = ['1','0','0','0','1','0','1','1','0','1','0','1','1','1'] <br> 計算 '1' 出現幾次",
+			"ans": ["x.count('1')"]
+		},
+		{
+			"validEngine": 1,
+			"group": "1",
+			"desc": "x = [3, 2, 1, 8, 9, 0, -3, 2, 1, 8, 9, 0] <br> 如何取得 -3 這個數值的 index ",
+			"ans": ["x.index(-3)"]
+		},
+		{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "x = ['Taipei', 0, 'Python', 1] <br> y = {'Taipei': 0, 'Python': 1} <br> z = ('Taipei', 0, 'Python', 1) <br> 請問 x, y , z 三者中誰是 串列",
+			"ans": ["x"]
+		},
+		{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "x = ['Taipei', 0, 'Python', 1] <br> y = {'Taipei': 0, 'Python': 1} <br> z = ('Taipei', 0, 'Python', 1) <br> 請問 x, y , z 三者中誰是 字典",
+			"ans": ["y"]
+		},
+		{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "x = ['Taipei', 0, 'Python', 1] <br> y = {'Taipei': 0, 'Python': 1} <br> z = ('Taipei', 0, 'Python', 1) <br> 請問 x, y , z 三者中誰是 元組(tuple)",
+			"ans": ["z"]
+		},
+		{
+			"validEngine": 1,
+			"group": "1",
+			"desc": "x = '[Python]' <br> 如何表示去掉中括弧的 'Python' (使用 子串列 的方法)",
+			"ans": ["x[1:-1]"]
+		},
+		{
+			"validEngine": 1,
+			"group": "1",
+			"desc": "x = '11,23,189' <br> 如何取得裡面的數值並用串列表示成 [11, 23, 189]",
+			"ans": ["x.split(',')"]
+		},
+		{
+			"validEngine": 1,
+			"group": "1",
+			"desc": "x = [11, 23, 189] <br> 如何將串列數值連接起來表示成字串如 '11,23,189' ",
+			"ans": ["x.join(',')"]
+		},
+		{
+			"validEngine": 1,
+			"group": "1",
+			"desc": "x = '''Aug, 25.69, 27.70, 23.16, 20.72, 24.27, 20.58 <br>Sep, 20.10, 24.40, 23.24, 24.52, 24.74, 23.46''' <br><br>我要如何講一個多行數的字串，根據一行一行拆開變成串列如： <br>['Aug, 25.69, 27.70, 23.16, 20.72, 24.27, 20.58', <br>'Sep, 20.10, 24.40, 23.24, 24.52, 24.74, 23.46'] ",
+			"ans": ["x.split('\n')"]
+		},
+		{
+			"validEngine": 1,
+			"group": "1",
+			"desc": "a = 50 <br>b = a <br>b = b * 2 <br>print( '{},{}'.format(a,b) )<br>請問會印出什麼？",
+			"ans": ["50,100"]
+		},
+		{
+			"validEngine": 1,
+			"group": "1",
+			"desc": "a = ['$', 50] <br>b = a <br>b[1] = b[1] * 2 <br>請問 print(a) 會印出什麼？",
+			"ans": ["['$',100]"]
+		},
+		{
+			"validEngine": 1,
+			"group": "1",
+			"desc": "a = ['$', 50] <br>b = a <br>b[1] = b[1] * 2 <br>請問 print(b) 會印出什麼？",
+			"ans": ["['$',100]"]
+		},
+		{
+			"validEngine": 1,
+			"group": "1",
+			"desc": "a = ['$', 50] <br>b = a.copy() <br>b[1] = b[1] * 2 <br>請問 print(a) 會印出什麼？",
+			"ans": ["['$',50]"]
+		},
+		{
+			"validEngine": 1,
+			"group": "1",
+			"desc": "a = ['$', 50] <br>b = a.copy() <br>b[1] = b[1] * 2<br>請問 print(b) 會印出什麼？",
+			"ans": ["['$',100]"]
+		},
+		{
+			"validEngine": 1,
+			"group": "1",
+			"desc": "x = {'taipei':20.5, 'kaohsiung':26, 'taichung':22} <br> 如何表示台北的溫度",
+			"ans": ["x['taipei']"]
+		},
+		{
+			"validEngine": 1,
+			"group": "1",
+			"desc": "x = {'taipei':20.5, 'kaohsiung':26, 'taichung':22} <br> 如何改變 x 讓台北的溫度改成 30",
+			"ans": ["x['taipei']=30"]
+		},
+		{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "x = {'taipei':20.5, 'kaohsiung':26} <br>y = {'taipei':18.5, 'hualien': 19.5} <br>如何改變 x 讓 y 的資料更新到 x 中，如 {'taipei': 18.5, 'kaohsiung': 26, 'hualien': 19.5}",
+			"ans": ["x.update(y)"]
+		},
 		
 	]
 }
