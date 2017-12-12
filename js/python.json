@@ -109,65 +109,6 @@ rawJSON = {
 			"desc": "x = [1,2,3,1,2] <br> 如何讓 x 變成 []",
 			"ans": ["x.clear()", "x=[]"]
 		},
-		{
-			"validEngine": 0,
-			"group": "1",
-			"desc": "",
-			"ans": [""]
-		},
-		{
-			"validEngine": 0,
-			"group": "1",
-			"desc": "",
-			"ans": [""]
-		},
-		{
-			"validEngine": 0,
-			"group": "1",
-			"desc": "",
-			"ans": [""]
-		},
-		{
-			"validEngine": 0,
-			"group": "1",
-			"desc": "",
-			"ans": [""]
-		},
-		{
-			"validEngine": 0,
-			"group": "1",
-			"desc": "",
-			"ans": [""]
-		},
-		{
-			"validEngine": 0,
-			"group": "1",
-			"desc": "",
-			"ans": [""]
-		},
-		{
-			"validEngine": 0,
-			"group": "1",
-			"desc": "",
-			"ans": [""]
-		},
-		{
-			"validEngine": 0,
-			"group": "1",
-			"desc": "",
-			"ans": [""]
-		},
-		{
-			"validEngine": 0,
-			"group": "1",
-			"desc": "",
-			"ans": [""]
-		},
-		{
-			"validEngine": 0,
-			"group": "1",
-			"desc": "",
-			"ans": [""]
-		}
+		
 	]
 }
