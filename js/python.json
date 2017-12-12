@@ -230,11 +230,52 @@ rawJSON = {
 			"ans": ["x['taipei']=30"]
 		},
 		{
-			"validEngine": 0,
+			"validEngine": 1,
 			"group": "1",
 			"desc": "x = {'taipei':20.5, 'kaohsiung':26} <br>y = {'taipei':18.5, 'hualien': 19.5} <br>如何改變 x 讓 y 的資料更新到 x 中，如 {'taipei': 18.5, 'kaohsiung': 26, 'hualien': 19.5}",
 			"ans": ["x.update(y)"]
 		},
-		
+		{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "x = {'taipei':20.5, 'kaohsiung':26 , 'hualien': 19.5} <br> 如何刪除台北的溫度讓 x 變成 {'kaohsiung': 26, 'hualien': 19.5}",
+			"ans": ["del x['taipei']"]
+		},
+		{
+			"validEngine": 1,
+			"group": "1",
+			"desc": "x = {'banana':'yellow', 'apple':'red', 'grape':'purple'} <br> 如何取得水果名稱並轉換成一個串列如 ['banana', 'apple', 'grape'] (嘗試用一行程式碼表示)",
+			"ans": ["list(x.keys())"]
+		},
+		{
+			"validEngine": 1,
+			"group": "1",
+			"desc": "x = {'banana':'yellow', 'apple':'red', 'grape':'purple'} <br> 如何取得顏色名稱並轉換成一個串列如 ['yellow', 'red', 'purple'] (嘗試用一行程式碼表示)",
+			"ans": ["list(x.values())"]
+		},
+		{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "x = [1, 3, 5, 7, 9] <br> print( 9 in x ) <br> 請問輸出的結果是？",
+			"ans": ["True"]
+		},
+		{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "x = 'I love Python' <br> print( 'python' in x ) <br> 請問輸出的結果是？",
+			"ans": ["False"]
+		},
+		{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "x = {'banana':'yellow', 'apple':'red'} <br> print( 'kiwi' in x ) <br> 請問輸出的結果是？",
+			"ans": ["False"]
+		},
+		{
+			"validEngine": 0,
+			"group": "1",
+			"desc": "x = {'$10':1, '$50':5} <br> 請問 x.get('$10', 0) 是多少",
+			"ans": ["1"]
+		},
 	]
 }
